@@ -29,7 +29,7 @@ const LoginForm = ( {setLoginUser} ) => {
     const {email,password}=user;
     //validation
     if(email && password){
-      axios.post("http://127.0.0.1:4000/login" , user)
+      axios.post("https://login-reg-server.onrender.com/login" , user)
       .then( (res)=>{
         alert(res.data.message);
         setLoginUser(res.data.user);
