@@ -1,5 +1,5 @@
 {
-  "name": "react-tailwind-css-starter-pack",
+  "name": "Login-register",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git"
+    "url": ""
   },
-  "author": "Pranay Gupta",
+  "author": "Gaurav Singh",
   "bugs": {
-    "url": "https://github.com/thepranaygupta/react-tailwind-css-starter-pack/issues"
+    "url": ""
   },
   "scripts": {
     "start": "react-scripts start",
