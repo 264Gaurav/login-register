@@ -29,7 +29,7 @@ const RegisterForm = () => {
     //validation
     if(name && email && password && password && confirmPassword ){
       if(password===confirmPassword){
-        axios.post("http://127.0.0.1:4000/register" , user)
+        axios.post("https://login-reg-server.onrender.com/register" , user)
       .then((res)=>{
         console.log(res);
         history.push('/login');
